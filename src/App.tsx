@@ -10,7 +10,6 @@ function App() {
       name: name.current?.value,
       age: age.current?.value,
     };
-    console.log(data);
   }
 
   const obj1 = {
@@ -34,7 +33,6 @@ function App() {
       }
   }
 
-  console.log(obj2);
 
   return (
     <>
